@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.card {
+  background: #ffffff;
+  width: 100%;
+  max-width: 390px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  box-shadow: -11.31px 11.31px 17px rgba(138, 131, 124, 0.23);
+}
+
+.card_wrap {
+  background-color: #f4ece6;
+  padding: 50px 75px;
+}
+
+.card_img {
+  width: 100%;
+  max-width: 210px;
+  margin: 0 auto 20px;
+}
+
+.card_img img {
+  width: 100%;
+  border-radius: 50%;
+  display: block;
+}
+
+.card_name {
+  font-size: 27px;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+hr {
+  background-color: #0050ff;
+  height: 2px;
+  width: 100%;
+  max-width: 53px;
+  margin: 0 auto;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.card_role {
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 4.25px;
+}
